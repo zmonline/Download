@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>تحميل تطبيق زمار أونلاين</title>
+  <title>منصة زمار أونلاين</title>
   
   <!-- إضافة خط كايرو -->
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
@@ -12,19 +12,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
   <style>
-    /* إعداد الخلفية */
     body {
       margin: 0;
-      font-family: 'Cairo', sans-serif; /* استخدام خط كايرو */
-      background: linear-gradient(135deg, #6a11cb, #2575fc); /* تدرج بنفسجي */
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
       color: #fff;
       text-align: center;
       padding: 0;
     }
 
-    /* رأس الصفحة */
     header {
       padding: 2rem;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 20px;
     }
     header h1 {
       font-size: 2.5rem;
@@ -34,36 +37,8 @@
       font-size: 1.2rem;
       margin: 10px 0 10px;
     }
-    header .android-only {
-      font-size: 1rem;
-      color: #ffeb3b;
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 5px 10px;
-      display: inline-block;
-      border-radius: 5px;
-      animation: fadeIn 1s ease-in-out, pulse 2s infinite;
-      margin-top: 10px;
-    }
 
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    @keyframes pulse {
-      0%, 100% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.1);
-      }
-    }
-
-    header .download-btn {
+    .download-btn {
       padding: 1rem 2rem;
       background: #fff;
       color: #6a11cb;
@@ -76,12 +51,11 @@
       display: inline-block;
       margin-top: 20px;
     }
-    header .download-btn:hover {
+    .download-btn:hover {
       background: #2575fc;
       color: #fff;
     }
 
-    /* المزايا */
     .features {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -112,7 +86,6 @@
       font-size: 1rem;
     }
 
-    /* الفوتر */
     footer {
       padding: 1rem;
       font-size: 0.9rem;
@@ -132,15 +105,11 @@
 <body>
 
   <header>
-    <h1>مرحباً بك في تطبيق زمار أونلاين</h1>
+    <!-- صورة شعار -->
+    <img src="logo.png" alt="شعار منصة زمار أونلاين">
+    <h1>مرحباً بك في منصة زمار أونلاين</h1>
     <p>اكتشف الحلول المبتكرة وابدأ تجربة لا تُنسى.</p>
-
-    <!-- تنبيه لأجهزة أندرويد -->
-
-    <!-- زر التحميل -->
-    <a href="zammar-online.apk" class="download-btn" download>تحميل التطبيق الآن 
-</a>
-
+    <a href="zammar-online.apk" class="download-btn" download>تحميل التطبيق الآن</a>
   </header>
 
   <section class="features">
@@ -157,7 +126,7 @@
     <div class="feature">
       <i class="fas fa-id-card"></i>
       <h3>جدول البطاقة الموحدة</h3>
-      <p>نشر جدول المراجعة للبطاقة الموحدة في تطبيق زمار يتم تحديثه أسبوعياً ليسهل الوصول إلى مواعيد المراجعة.</p>
+      <p>نشر جدول المراجعة للبطاقة الموحدة في منصة زمار أونلاين، يتم تحديثه أسبوعياً ليسهل الوصول إلى مواعيد المراجعة.</p>
     </div>
     <div class="feature">
       <i class="fas fa-bullhorn"></i>
@@ -165,19 +134,19 @@
       <p>روّج لأعمالك أو خدماتك بفضل منصة زمار المخصصة للإعلانات.</p>
     </div>
     <div class="feature">
-      <i class="fas fa-chart-line"></i>
-      <h3>تفاعلات مذهلة</h3>
-      <p>شارك وتفاعل مع محتوى المجتمع لتحقق أقصى استفادة.</p>
+      <i class="fas fa-store"></i>
+      <h3>سوق زمار</h3>
+      <p>تم إطلاق سوق زمار في منصة زمار أونلاين حيث تجد كل المنتجات، المبيعات، الأدوات وكل شيء تحتاجه.</p>
     </div>
     <div class="feature">
       <i class="fas fa-tv"></i>
       <h3>مشاهدة القنوات الرياضية</h3>
-      <p>قريباً! استمتع بمشاهدة القنوات الرياضية المفضلة لديك بجودة عالية عبر تطبيق زمار أونلاين.</p>
+      <p>استمتع بمشاهدة القنوات الرياضية المفضلة لديك بجودة عالية مباشرة عبر منصة زمار أونلاين.</p>
     </div>
   </section>
 
   <footer>
-    <p> تطبيق زمار أونلاين. جميع الحقوق محفوظة. © 2025 </a></p>
+    <p> منصة زمار أونلاين. جميع الحقوق محفوظة. © 2025 </p>
   </footer>
 
 </body>
